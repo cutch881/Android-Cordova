@@ -1,0 +1,58 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+     @font-face {
+           font-family: "my-font";
+           src: url("sofia/Sofia-Regular.otf");
+     }
+
+     html
+      {
+         -webkit-user-select: none;
+
+      }
+
+      body
+      {
+
+           background-image: url("../img/wood.png");
+           background-repeat: repeat;
+      }
+
+      table
+      {
+        margin-top:8px;
+        margin-bottom:8px;
+        width:100%;
+      }
+
+      tr
+      {
+        background:white;
+        font-size:37px;
+      }
+
+      td
+      {
+        padding: 5px;
+        text-align:center;
+        font-family: my-font;
+        margin-top:5px;
+      }
+
+     #header
+      {
+          text-align:center;
+          font-size:50px;
+          font-family:my-font;
+          color:white;
+      }
+       #container
+        {
+           height:750px;
+           overflow:auto;
+           margin:20px;
+           border: 2px inset red;
+           border-radius: 25px;
+           box-shadow: 0 0 20px red;
+        }
+
+}

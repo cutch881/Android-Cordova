@@ -1,0 +1,53 @@
+ @media (min-width: 768px) and (max-width: 1024px) {
+     @font-face {
+           font-family: "my-font";
+           src: url("sofia/Sofia-Regular.otf");
+     }
+
+     html
+      {
+         -webkit-user-select: none;
+      }
+
+      body
+      {
+
+           background-image: url("../img/wood.png");
+           background-repeat: repeat;
+      }
+
+     .container
+     {
+       font-family: my-font;
+       font-size:40px;
+       display: grid;
+       grid-gap: 20px 60px;
+       grid-template-columns: 250px 250px;
+       padding: 5px;
+     }
+     .container div
+     {
+       background-color: white;
+       padding: 50px;
+       font-size: 20px;
+       text-align: center;
+       border: 2px inset red;
+       border-radius: 25px;
+       box-shadow: 0 0 20px red;
+     }
+
+     #logout
+     {
+        float:right;
+        /*position: relative;
+        top:-905px;*/
+        margin-right:30px;
+        margin-top:150px;
+        background-color: white;
+        padding:15px;
+        border: 2px inset red;
+        border-radius: 25px;
+        box-shadow: 0 0 20px red;
+     }
+ }
+

@@ -1,0 +1,91 @@
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    @font-face {
+      font-family: "my-font";
+      src: url("sofia/Sofia-Regular.otf");
+    }
+
+     html
+     {
+         -webkit-user-select: none;
+     }
+
+     body
+     {
+      background-image: url("../img/BookBackground.jpg");
+      background-repeat: repeat;
+     }
+     #login
+     {
+         position: fixed;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background:white;
+         border: 2px inset red;
+         border-radius: 25px;
+         box-shadow: 0 0 20px red;
+         padding:4%
+
+     }
+
+     #login #infoSection, #login div
+     {
+         color: #DC143C;
+         font-family: my-font;
+     }
+
+     #login #infoSection
+     {
+      font-size:175%
+     }
+
+     #appName
+     {
+       font-size:400%;
+       text-align:center;
+     }
+
+     #quote
+     {
+         text-align: center;
+         border-bottom: 5px dotted  red;
+         font-size:120%
+     }
+
+     #login #infoSection input[type=text],#login #infoSection input[type=password] {
+         width: 100%;
+         border: 2px solid black;
+         line-height: 25px;
+         font-size:25px;
+      }
+
+      button , input[type=submit]
+      {
+          font-family: my-font;
+          font-size:30px;
+          color: black;
+          margin-top:20px;
+          width: 100%;
+          border: 1px solid black;
+          background-color: #F5F5F5;
+      }
+
+      #android
+      {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:5px;
+      }
+
+}
+
+
+
+
+
+
+
+

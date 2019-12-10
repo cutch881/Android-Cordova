@@ -1,0 +1,99 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    @font-face {
+      font-family: "my-font";
+      src: url("sofia/Sofia-Regular.otf");
+    }
+
+     html
+     {
+         -webkit-user-select: none;
+     }
+
+     body
+     {
+      background-image: url("../img/wood.png");
+      background-repeat: repeat;
+     }
+
+                 table
+                     {
+                       padding:5px;
+                       background:black;
+                       font-family: serif;
+                       color:red;
+                       border-collapse:separate;
+                       border-spacing:0 15px;
+                       width:100%;
+                     }
+
+                     #container
+                     {
+                       height:750px;
+                       overflow:auto;
+                       margin:20px;
+                       border: 2px inset red;
+                       border-radius: 25px;
+                       box-shadow: 0 0 20px red;
+                     }
+
+                     tr:nth-child(even)
+                     {
+                       background-color:black;
+                       color:white;
+                     }
+
+                     tr:nth-child(odd)
+                     {
+                       background-color:white;
+                     }
+
+                     tr img
+                     {
+                       margin-top:5px;
+                       margin-bottom:5px;
+                     }
+
+                     td{
+                       font-size:30px;
+                     }
+
+                   /* #filterInput
+                    {
+                       width:400px;
+                       height:50px;
+                       font-size:20px;
+                       display:block;
+                       margin-right:auto;
+                       margin-left:auto
+                    }*/
+
+                    #header
+                    {
+                        text-align:center;
+                        font-size:30px;
+                        font-family:my-font;
+                        color:white;
+                    }
+
+                    button
+                    {
+                      font-size: 25px;
+                      margin-left:7px;
+                      margin-bottom:5px;
+                    }
+
+                    td:nth-child(2) div
+                    {
+                      margin-left:7px;
+                      margin-top:5px;
+                    }
+
+                     p{
+                         text-align:center;
+                         font-size:40px;
+                         font-family:my-font;
+                         color:white;
+                      }
+
+  }
